@@ -1,0 +1,26 @@
+.button{
+    background-color: purple;
+    border: 1px solid grey;
+    width:150px
+}
+.button:hover{
+    background-color: lavender ;
+    border: 1px solid grey;
+    width:150px;
+    color: black;
+
+}
+.action{
+    background-color: #C11C84;
+    border: 1px solid grey;
+    width:150px;
+    
+
+}
+.action:hover{
+    background-color: pink;
+    border :1px solid grey;
+    width: 150px;
+    color: black;
+
+}
