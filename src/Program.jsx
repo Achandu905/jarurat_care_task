@@ -1,9 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ArcElement, Chart } from 'chart.js';
 import React, { useState } from 'react';
 import { Button } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Pie } from 'react-chartjs-2';
-import { Chart, ArcElement } from 'chart.js';
-import './program.css'
+import './program.css';
 
 Chart.register(ArcElement);
 
@@ -72,8 +72,8 @@ export const Program = () => {
         <Pie data={data} options={options}/>
       </div>
       <h3>Number: {count}</h3>
-      <Button onClick={decrement} className='button'>Subtract 1</Button>
-      <Button onClick={increment} className='button'>Add 1</Button>
+      <Button onClick={decrement} className='button'>Decrement</Button>
+      <Button onClick={increment} className='button'>Increment</Button>
      
       <div style={{ marginTop: "20px" }}>
         <Button onClick={undofunction} className='action' disabled={undo.length <= 1}>undo</Button>
